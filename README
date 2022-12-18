@@ -1,0 +1,38 @@
+
+# Code in the dark - Team Fox
+Comviq:s codebase has been deleted by a malicious competitor, (READ Telia), and it is now up to you to restore some components before the Christmas holidays. You have been requested to restore the look of the blocks being displayed in the file: Design.PNG, and you have 15 minutes before the CEO of Tele2 wakes up and he will realise that everything on Comviq.se has been deleted.
+
+## Some hints
+
+### Fonts
+    You have an example of how to use the bold and regular font in the html- and css.file.
+    Eg in html:
+        <h1>Coding in the dark</h1>
+       in css:
+        @font-face {
+            font-family: 'Comviq-Reg';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Comviq-Reg'), url("./assets/fonts/ComviqSansWeb-Regular.woff") format('woff');
+        }
+        h1 {
+            font-family: 'Comviq-Reg';
+        }
+
+
+### Assets
+    All required SVG:s are located inside the assets folder.
+    To use them: simply copy the svg element and add to your index.html-file:
+    Eg: 
+    <svg class="cq-eW cq-n3" width="10px" height="10px" viewBox="0 0 28 28" data-di-res-id="d309ee80-fb6822cb"
+        data-di-rand="1671354244246">
+        <g stroke="none">
+            <path
+                d="M12.967 28.441c-0.773 0-1.506-0.361-1.975-0.983l-6.352-8.393c-0.827-1.090-0.612-2.642 0.48-3.468 1.093-0.83 2.645-0.612 3.472 0.48l4.18 5.518 10.508-16.875c0.724-1.159 2.252-1.515 3.415-0.791 1.161 0.722 1.518 2.251 0.793 3.413l-12.416 19.929c-0.43 0.695-1.175 1.129-1.991 1.166-0.039 0.004-0.075 0.004-0.114 0.004v0z">
+            </path>
+        </g>
+    </svg>
+
+
+
+## Good luck and happy coding! 
